@@ -1,0 +1,195 @@
+body {
+	font-family: "Open-sans", "helvetica neue", helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 300;
+	position: relative;
+	min-height: 45px;
+	margin-bottom: 21px;
+}
+
+header {
+	padding: 0;
+	list-style-type: none;
+	background-color: black;
+	color: white;
+	width: 100vw;
+	height: 30px;
+	margin: 0;
+}
+
+.ban li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 20px;
+	line-height: 50%;
+}
+
+.log {
+	margin: 0 0 0 650px;
+}
+
+.ban ul {
+	float: left;
+}
+
+header img {
+	float: left;
+	margin: auto;
+	width: 70px;
+	padding-left: 25px;
+	padding-right: 30px;
+}
+
+body {
+	background-color: #1e93cc;
+	overflow-y: scroll;
+}
+
+.bonhomme {
+	margin-left: 30px;
+	width: 5%;
+	float: left;
+}
+
+.bloc2 {
+	color: white;
+	margin-left: 0px;
+	margin-right: auto;
+	margin-top: 25px;
+	width: 94%;
+	text-align: center;
+}
+
+.logobig {
+	width: 200px;
+}
+
+section {
+	width: 100vw;
+}
+
+section p {
+	font-size: 18px;
+}
+
+.boxarr {
+	font-size: 16px;
+	background-color: rgb(233,144,2);
+	width: 230px;
+	height: 50px;
+	border: solid;
+	border-width: 1px;
+	border-color: white;
+	border-radius: 0.5em;
+	line-height: 50px;
+	font-weight: bold;
+	margin-left: 46%;
+}
+
+.deadlines {
+	background-color: white;
+	height: 50px;
+	margin-top: 110px;
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 43%;
+}
+
+.sectiondeux {
+	columns: 300px 2;
+	color: white;
+}
+
+.sectiondeux p {
+	font-size: 12px;
+}
+
+.title1 {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+/*.innov {
+    background-color: white;
+    height: 50px;
+    margin-top: 110px;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 43%;
+}  
+  
+ 
+.logos {
+    background-color: rgb(221, 220, 217);
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    }
+    */
+
+.logos ul {
+	list-style: none;
+	margin: 20px;
+}
+
+.logos ul li {
+	display: inline-block;
+	text-align: center;
+	padding-left: 125px;
+}
+
+.img {
+	width: 80px;
+	margin: 20%;
+	padding-left: 50px;
+}
+
+.api {
+	height: 200px;
+}
+
+.api ul {
+	margin-top: 2em;
+	list-style: none;
+	height: 100%;
+}
+
+.api ul li {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	margin-right: .5em;
+	top: 15%;
+	left: 25%;
+	background-color: rgb(30, 90, 255);
+	height: 50px;
+	width: 185px;
+	border-radius: 10px;
+}
+
+.bouton {
+	text-decoration: none;
+	display: block;
+	position: relative;
+	top: 35%;
+	font-size: 14px;
+	font-weight: bold;
+	font-weight: lighter;
+	color: white;
+}
+
+.bouton .start {
+	background-color: rgb(233,144,2);
+}
+
+footer {
+	padding: 0;
+	list-style-type: none;
+	background-color: black;
+	color: white;
+	width: 100vw;
+	height: 30px;
+	margin: 0;
+}
