@@ -19,6 +19,8 @@ header {
 
 .ban li {
 	list-style-type: none;
+	/*
+	display: inline-block;*/
 	display: inline-block;
 	margin: 0 20px;
 	line-height: 50%;
@@ -26,10 +28,18 @@ header {
 
 .log {
 	margin: 0 0 0 650px;
+	float: right;
 }
+/*
+.log {
+	text-align: right
+	padding-left: 75%;
+}
+*/
 
 .ban ul {
 	float: left;
+
 }
 
 header img {
@@ -118,7 +128,8 @@ section p {
     padding-left: 43%;
 }  
   
- 
+*/ 
+/*
 .logos {
     background-color: rgb(221, 220, 217);
     margin: 80px auto;
@@ -128,7 +139,7 @@ section p {
     justify-content: center;
     }
     */
-
+/*
 .logos ul {
 	list-style: none;
 	margin: 20px;
@@ -144,6 +155,16 @@ section p {
 	width: 80px;
 	margin: 20%;
 	padding-left: 50px;
+}*/
+.logos {
+	
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		rotate: 90deg;
+		flex-basis: auto;
+	}
 }
 
 .api {
@@ -163,7 +184,7 @@ section p {
 	margin-right: .5em;
 	top: 15%;
 	left: 25%;
-	background-color: rgb(30, 90, 255);
+	background-color: rgb(22, 88, 130);
 	height: 50px;
 	width: 185px;
 	border-radius: 10px;
@@ -183,6 +204,7 @@ section p {
 .bouton .start {
 	background-color: rgb(233,144,2);
 }
+
 
 footer {
 	padding: 0;
